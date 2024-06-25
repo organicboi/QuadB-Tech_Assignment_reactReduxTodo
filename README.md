@@ -1,3 +1,5 @@
+# QuadB-Tech Assignment React Redux Todo Application
+
 This project is a assignment for QuadB-Tech, it's responsive Todo application built with React, Redux, and TypeScript. It features a clean UI with the ability to add, edit, delete, and mark todos as complete.
 
 ## Features
