@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+This project is a assignment for QuadB-Tech, it's responsive Todo application built with React, Redux, and TypeScript. It features a clean UI with the ability to add, edit, delete, and mark todos as complete.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Persist tasks in local storage
+- Responsive design using Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React 18
+- Redux Toolkit
+- TypeScript
+- Vite
+- Bootstrap 5
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Before you begin, ensure you have met the following requirements:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+To get this project running locally:
+
+1. Clone this repository
+   git clone https://github.com/your-username/react-todo-app.git
+   cd react-todo-app
+   Copy
+2. Install dependencies
+   npm install
+   Copy
+3. Start the development server
+   npm run dev
+   Copy
+4. Open your browser and visit `http://localhost:5173`
