@@ -1,0 +1,143 @@
+body {
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border: 3px solid rgb(176, 75, 248);
+}
+
+.todo-header {
+  text-align: center;
+  color: rgb(176, 75, 248);
+  margin-bottom: 1.5rem;
+}
+
+.todo-input {
+  transition: all 0.3s ease;
+}
+
+.todo-input:focus {
+  box-shadow: 0 0 0 0.8rem rgb(16, 15, 17);
+}
+
+.todo-item {
+  background-color: #f0f2f5;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+  background-color: #e4e6eb;
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.addTask_btn_class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addTask_btn {
+  background-color: rgb(176, 75, 248);
+  margin-left: 8px;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.btn-todo {
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.btn-todo:hover {
+  transform: translateY(-1px);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.edit-input {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.375rem 0.75rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+.edit-input {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.btn-todo {
+  white-space: nowrap;
+}
+
+.form-check-input {
+  width: 1.2em;
+  height: 1.2em;
+  margin-top: 0.25em;
+  cursor: pointer;
+}
+
+.todo-text {
+  margin-left: 0.5rem;
+  flex-grow: 1;
+  transition: all 0.3s ease;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.edit-input {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
